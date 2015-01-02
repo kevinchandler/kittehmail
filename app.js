@@ -56,28 +56,4 @@ app.use(function(err, req, res, next) {
     });
 });
 
-// var mongoose = require('mongoose');
-
-// mongoose.connect(process.env.MONGODB_URI);
-
-// db.findUser('test@test.com', function(err, user) {
-//     console.log(err, user);
-// })
-
-// db.subscribeUser({
-//     // email: 'im.kevin@me.com',
-//     webhook: 'localhost:3000/kittens',
-//     ip: '127.0.0.1'
-// }, function(err, succ) {
-//     console.log(err, succ);
-// })
-
-// var Q = require('q');
-// var db = require('./lib/db.js');
-
-
-// db.findEntry( { email: 'im.kevin@me.com'}, function(err, user) {
-//     console.log(err, user);
-// });
-
 module.exports = app;
