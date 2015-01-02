@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  script(src='javascripts/script.js')
+  h1= title
+  p Coming Soon
+  section(id='subscribe')
+    input(type='text', id='webhookUrl', placeholder='Webhook url')
+    button(type='button', id='subscribeBtn') Submit
+  section(id='success')
+  	p Success!
